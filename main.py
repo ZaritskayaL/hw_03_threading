@@ -31,6 +31,14 @@ def run_factorize():
 
 
 if __name__ == "__main__":
-    run_sorter()
-    #run_factorize()
+    choice = input(
+        '1 - sorter\n'
+        '2 - factorize\n'
+    )
+
+    if choice == "1":
+        run_sorter()
+
+    if choice == "2":
+        run_factorize()
 
